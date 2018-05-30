@@ -6,6 +6,10 @@ class App extends Component {
   render() {
       const arr = ['小队长', '脏兮兮', '凶巴巴'];
       const showName = (name) => (<p>你好!我是{name}!</p>);
+      const array = [
+          <h1>这是一个标题</h1>,
+          <<h2>嗯,同意</h2>,
+      ];
     return (
       <div className="App">
         <header className="App-header">
